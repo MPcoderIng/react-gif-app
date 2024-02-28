@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PRUEBAS EN GIF ITEM should match snapshot 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="Titulo"
+      src="https://api.giphy.com/v2/emoji?api_key=PZdk0PbT1xkFEABpKXPfn7lIj1C495MF&limit=10&offset=0"
+    />
+    <p>
+      Titulo
+    </p>
+  </div>
+</div>
+`;
