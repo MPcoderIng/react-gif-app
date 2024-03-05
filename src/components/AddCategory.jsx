@@ -13,12 +13,13 @@ export const AddCategory = ({onNewCategory}) => {
         event.preventDefault();
         if(inputValue.trim().length <= 1) return;
         // onAddCategory(categories => [inputValue, ...categories]);
-        onNewCategory(inputValue.trim());
         setInputValue('');
+        onNewCategory(inputValue.trim());
+        
     };
 
   return (
-      <form onSubmit={ (event) => onSubmit(event) }>
+      <form onSubmit={ (event) => onSubmit(event) } aria-label="form">
           <input
               type="text"
               placeholder="Bucar Gifs"
